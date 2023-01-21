@@ -4,7 +4,6 @@ import classes from "./App.module.css";
 import { useRef } from "react";
 import jsPDF from "jspdf";
 
-
 function App() {
   const canvasRef = useRef<HTMLDivElement>(null);
   const onDownload = () => {
